@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Max Temperature</title>
+    <title>Humidity</title>
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet/style.css">
@@ -13,8 +13,6 @@
 </head>
 
 <body>
-
-<!-- Navbar-->
 <!-- Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><span>Latitude</span></a>
@@ -46,39 +44,36 @@
         </ul>
     </div>
 </nav>
-
 <!-- Container -->
 <div class="container-fluid">
     <div class="row">
         <!-- Summary -->
         <div class="col-md-8" >
             <div class="left-box">
-                <div class="summary">
-                    <h2>Max Temperature </h2>
-                    <hr>
-                    <img src="images/max_temp.png" alt="max_temperature" class="individual_plot">
-                    <p>
-                        As expected, the weather comes significantly warmer as one approaches the equator (0 Deg. Latitude).
-                        More interestingly, however, is the fact that the southern hemisphere trends to be warmer this time of year than the
-                        northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
-                    </p>
-                </div>
+            <div class="summary">
+                <h2>Humidity </h2>
+                <hr>
+                <img src="images/humidity.png" alt="humidity" class="individual_plot">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+                </p>
+            </div>
             </div>
         </div>
 
         <!-- Visualizations -->
         <div class="col-md-4">
             <div class="right-box">
-                <div class="visualizations">
+            <div class="visualizations">
                 <h2>Visualizations </h2>
                 <hr>
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="temp.html"><img src="images/max_temp.png" alt="max_temperature" class="visualizations_plots" style="border: 2px solid lightseagreen;"></a>
+                        <a href="temp.html"><img src="images/max_temp.png" alt="max_temperature" class="visualizations_plots"></a>
                     </div>
 
                     <div class="col-md-6">
-                        <a href="humidity.html"><img src="images/humidity.png" alt="humidity" class="visualizations_plots"></a>
+                        <a href="humidity.html"><img src="images/humidity.png" alt="humidity" class="visualizations_plots" style="border: 2px solid lightseagreen;"></a>
                     </div>
                 </div>
 
@@ -98,6 +93,5 @@
     </div>
 </div>
 <!-- End of Container -->
-
 </body>
 </html>
